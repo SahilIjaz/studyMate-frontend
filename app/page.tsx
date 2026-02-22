@@ -68,7 +68,7 @@ export default function Home() {
         }, 2000);
       }
     } catch {
-      setUploadError("Cannot connect to backend. Is it running on port 8000?");
+      setUploadError("Cannot connect to backend. Is Api key disabled?");
     } finally {
       setIsUploading(false);
     }
