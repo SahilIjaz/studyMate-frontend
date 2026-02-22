@@ -2,7 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 
-const API_BASE = "http://localhost:8000";
+const API_BASE = "https://study-mate-backend-zu9b.onrender.com";
 
 type Message = {
   id: string;
