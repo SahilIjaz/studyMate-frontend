@@ -74,6 +74,8 @@ export default function Home() {
     }
   }, []);
 
+
+  
   const handleDrop = useCallback(
     (e: React.DragEvent) => {
       e.preventDefault();
